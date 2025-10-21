@@ -26,3 +26,71 @@
     background-color: #00087e;
     border-radius: 5px;
 }
+
+
+@media(max-width:500px) {
+    body {
+        background-color: rgb(0, 13, 255);
+    }
+
+    #smartphone {
+        display: block;
+    }
+}
+@media(min-width: 501px) and (max-width:768px) {
+    body {
+        background-color: green;
+    }
+
+    #tablet {
+        display: block;
+    }
+}
+
+@media(min-width: 501px) and (max-width:768px) {
+    body {
+        background-color: green;
+    }
+
+    #tablet {
+        display: block;
+    }
+}
+
+
+@media(min-width: 1201px) {
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+
+    #widescreen {
+        display: block;
+    }
+}
+
+@media(max-height: 500px) {
+    body {
+        background-color: orange;
+    }
+
+    #landscape {
+        display: block;
+    }
+}
+
+body.about-page {
+    background-color: #7d7d7d;
+    color: #000000;
+}
+ 
+body.about-page h1 {
+    color: #ffffff;
+}
+ 
+body.about-page main {
+    background-color: #ffffff;
+    clor: #000000;
+}
+nav.about-page main {
+    color: #7d7d7d;
+}
